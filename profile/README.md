@@ -26,11 +26,14 @@ composition DemoProc {            // a process
 
 ## Repositories
 
-| Repo | What |
-| --- | --- |
-| **[theia](https://github.com/perotheia/theia)** | The framework: the C++ actor runtime (`GenServer`/`GenStateM`/`GenRunnable`), the OTP-style supervisor, the ARA service Functional Clusters, and the Bazel build + `.deb` packaging. |
-| **[artheia](https://github.com/perotheia/artheia)** | The `.art` system-description DSL + code generators (C++ scaffolds, `.proto`, manifests, netgraphs) and the LSP that powers editor support. |
-| **[rf-theia](https://github.com/perotheia/rf-theia)** | The Robot Framework testing harness — drives the live supervisor, reads the trace feed, and asserts end-to-end signal flow across clusters. |
+| Repo | What | Docs |
+| --- | --- | --- |
+| **[theia](https://github.com/perotheia/theia)** | The framework: the C++ actor runtime (`GenServer`/`GenStateM`/`GenRunnable`), the OTP-style supervisor, the ARA service Functional Clusters, and the Bazel build + `.deb` packaging. | [Wiki](https://github.com/perotheia/theia/wiki) |
+| **[artheia](https://github.com/perotheia/artheia)** | The `.art` system-description DSL + code generators (C++ scaffolds, `.proto`, manifests, netgraphs) and the LSP that powers editor support. | [Wiki](https://github.com/perotheia/artheia/wiki) |
+| **[rf-theia](https://github.com/perotheia/rf-theia)** | The Robot Framework testing harness — drives the live supervisor, reads the trace feed, and asserts end-to-end signal flow across clusters. | [Wiki](https://github.com/perotheia/rf-theia/wiki) |
+
+📖 Start with the **[Theia wiki](https://github.com/perotheia/theia/wiki)** — architecture,
+the deployment/manifest pipeline, a step-by-step tutorial, and the MCP/skills integration.
 
 ## Getting started
 
