@@ -8,7 +8,7 @@ You describe your system in `.art` — nodes (threads with typed ports),
 compositions (processes), clusters (deploy units) — and the toolchain generates
 the C++ scaffolds, wire types, deploy manifests, and supervision tree.
 
-```art
+```scala
 node atomic Counter {
     tipc type=0x80020001 instance=0
     ports {
