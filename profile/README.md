@@ -32,6 +32,7 @@ composition DemoProc {            // a process
 | **[artheia](https://github.com/perotheia/artheia)** | The `.art` system-description DSL + code generators (C++ scaffolds, `.proto`, manifests, netgraphs) and the LSP that powers editor support. | [Wiki](https://github.com/perotheia/artheia/wiki) |
 | **[rf-theia](https://github.com/perotheia/rf-theia)** | The Robot Framework testing harness — drives the live supervisor, reads the trace feed, and asserts end-to-end signal flow across clusters. | [Wiki](https://github.com/perotheia/rf-theia/wiki) |
 | **[colony](https://github.com/perotheia/colony)** | The deployment adapter — agentless (Ansible) provisioning + orchestration of rigs from the per-rig bundle `theia` emits, plus the nightly OTA end-to-end integration gate (build → S3 → provision → Mender OTA, in containers). | [Wiki](https://github.com/perotheia/colony/wiki) |
+| **[ground-station](https://github.com/perotheia/ground-station)** | The cloud Ground Station — the operator surface for day-2 fleet operations: enroll devices, plan + push software campaigns (base → colony, app → Mender), watch rollouts, and aggregate device health. A web UI + API over a Mender OTA backend. | [Wiki](https://github.com/perotheia/ground-station/wiki) |
 
 📖 Start with the **[Theia wiki](https://github.com/perotheia/theia/wiki)** — architecture,
 the deployment/manifest pipeline, a step-by-step tutorial, and the MCP/skills integration.
