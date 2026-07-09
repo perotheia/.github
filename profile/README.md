@@ -37,6 +37,22 @@ composition DemoProc {            // a process
 📖 Start with the **[Theia wiki](https://github.com/perotheia/theia/wiki)** — architecture,
 the deployment/manifest pipeline, a step-by-step tutorial, and the MCP/skills integration.
 
+## Packages
+
+Reusable **packages** — a node + protocol + impl, built once as a linkable lib and
+`import`ed into many workspaces (the ROS `runtime / libraries / workspace` split) —
+live in the separate **[perotheia-packages](https://github.com/perotheia-packages)**
+org. Scaffold your own with `theia init --kind package`; consume one as an
+`@<name>//` bazel-module git submodule under `packages/`. The worked examples:
+[`v2v`](https://github.com/perotheia-packages/v2v) (relative-topology SLAM +
+cooperative-alert consensus), [`meshtastic`](https://github.com/perotheia-packages/meshtastic)
+(a swappable mesh transport that feeds v2v), and
+[`connectivity-ws`](https://github.com/perotheia-packages/connectivity-ws) — an
+**integration workspace** that submodules related connectivity packages and composes
+them into deployable apps with port-connected pipelines (v2v + meshtastic today). See
+the tutorial's [Advanced deployment › Packages](https://github.com/perotheia/theia/wiki)
+chapter.
+
 ## Getting started
 
 Install the framework, scaffold your own workspace, generate + build an app:
