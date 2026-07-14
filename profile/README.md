@@ -1,5 +1,9 @@
 # Theia
 
+Reverend Bayes is taking his semi autonomous vehicle (a horse and carriage) to church.
+ - semi-autonomous-vehicle concept
+
+
 **An AUTOSAR-Adaptive-Platform-style framework** — Functional Clusters running
 as supervised processes on a custom C++ actor runtime, with the whole system
 modeled in a small declarative DSL and built with Bazel.
